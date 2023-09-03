@@ -1,0 +1,99 @@
+.title{
+    position:absolute;
+    font-weight: 600;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container1{
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    overflow: auto; /*to insure scroll option*/
+    height: 400px;
+}
+.field{
+    display: flex;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: gainsboro;
+    color:#80043c;
+    margin: 20px;
+    gap:12px;
+    align-items: center;
+    animation-fill-mode: forwards;
+    padding: 18px;
+    width:40%;
+    min-width:300px;
+}
+.field:focus-within{
+    border-color: #80043c;   
+}
+.fitContent {
+    max-width: 50%; /* Ensures the element doesn't exceed container width */
+    max-height: 100%; /* Ensures the element doesn't exceed container height */
+    box-sizing: border-box; /* Includes padding and border in the element's dimensions */
+    white-space: nowrap;
+}
+.fitContent1{
+    flex-grow: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+    appearance: none;
+    height:100%;
+    Border: none ;
+    outline: none ;
+    Border: 0px;
+    outline: 0px;
+    scroll-behavior: smooth;
+
+}
+.container2{
+    height: 50px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap:12px;
+    box-sizing:content-box;
+}
+.button1{
+ background-color: white;
+ color: gray;
+ text-align: center;
+ width: 23%;
+ padding: 12px, 8px, 12px, 8px;
+ border-width: 2px;
+ border-color: gainsboro;
+ border-radius: 10px;
+}
+.button2{
+    background-color: #80043c;
+    color:white ;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    display:flex;
+    
+    flex-direction: row;
+    padding : 12px, 8px, 12px, 8px;
+    width: 23%;
+    border-width: 2px;
+    border-color: gainsboro;
+    border-radius: 10px;
+    gap:5px;
+    
+}
+.image{
+    width:1000px;
+    height:70px;
+    box-sizing:content-box;
+    
+}
